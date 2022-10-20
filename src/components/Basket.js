@@ -6,16 +6,16 @@ function Basket ({basket, total, resetBasket, products}) {
     return (
         <>
         <div className="basket-container container">
-          <h3>Shopping Details</h3>
+          <h3>Alışveriş Detayları</h3>
           <ul>
             {basket.map(item =>(
               <BasketItem key={item.id} item={item} product={products.find(p => p.id === item.id)} />
             ))}
             </ul>
             <div className="total">
-              Total: ${total}
+              Toplam: ${total}
             </div>
-            <button className="basket-reset-btn" onClick={resetBasket}>Empty the Basket</button>
+            <button className="basket-reset-btn" onClick={resetBasket}>Sepeti Boşalt</button>
             </div>
             <style jsx>{`
               .basket-container {

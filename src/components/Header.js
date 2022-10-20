@@ -5,13 +5,13 @@ function Header ({total, money}) {
     return (
                <>  
                 {total > 0 && money - total !== 0 && (
-                    <div className="header"> To spend $ {moneyFormat(money - total)} you have! </div>
+                    <div className="header"> Harcamak için $ {moneyFormat(money - total)} paranız kaldı! </div>
                 )}
                 {total === 0 && (
-                    <div className="header"> To spend $ {moneyFormat(money)} you have! </div>               
+                    <div className="header"> Harcamak için $ {moneyFormat(money)} paranız kaldı! </div>               
                 )}
                 {money - total === 0 && (
-                    <div className="header"> Youre Out of Money </div>
+                    <div className="header"> Paranız Kalmadı! </div>
                 )}
 
 

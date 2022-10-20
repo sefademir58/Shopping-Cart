@@ -2,19 +2,19 @@
     
     [{
         "id":1,
-        "title": "Guitar",
+        "title": "Gitar",
         "price": 8,
         "image": "https://productimages.hepsiburada.net/s/19/375/9833224405042.jpg"
     },
     {
         "id":2,
-        "title": "Car",
+        "title": "Araba",
         "price": 100,
         "image":"https://www.macromore.com/imajlar/2017/09/1504224000-47173c5e72263cd1a5e1c3dd9a604b19-500x375.jpg"
     },
     {
         "id":3,
-        "title": "Computer",
+        "title": "Bilgisayar",
         "price": 25,
         "image":"https://rukminim1.flixcart.com/image/416/416/j9it30w0/laptop-skin-decal/v/a/u/apple-logo-laptop-skin-sticker-hdm-15-6-original-imaezab8tc6fnjr6.jpeg?q=70"
     },
